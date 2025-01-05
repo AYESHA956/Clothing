@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+    <div class="bg-black">
+        <h2 class="py-5 text-white font-bold text-3xl  text-center"> C L O T H E S  ____    C O L L E C T I O N  </h2>
+    </div>
+    <div class="flex bg-blue-400 justify-between">
+      <div class="text-white text-10 ml-40 py-5">
+        <a href="/women/home/home.html ">Home</a>
+      </div>
+   <br>  <button  class="text-white text-bold text-10 py-5"onclick="filterCars('women')"> Women </button><br>
+   <br>  <button  class="text-white text-bold text-10 py-5"onclick="filterCars('MEN')"> MEN </button><br>
+   <br>  <button  class="text-white text-bold py-5 text-10" onclick="filterCars('CHILDREN')">CHILDREN </button><br>
+   <br>  <button  class="text-gray-400 text-bold py-5" onclick="showAllCars()">Show All</button><br>
+    </div>
+           
+            <div class="container" id="cardContainer">   </div>  
+               
+   
+      
+    <script src="app.js"></script>
+</body>
+</html>
